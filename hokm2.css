@@ -1,0 +1,86 @@
+body{
+    background-image: url("planks-dark-old-wood-texture-1847619.jpg");
+}
+.card {
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    /* top: 50%;
+    left: 50%; */
+    width: 200px;
+    height: 390px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.imgCenter {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card span {
+    font-family: "Poker";
+    font-size: 30px;
+}
+
+.red {
+    color: #e61308;
+}
+
+.black {
+    color: #000000;
+}
+
+.topBox,
+.bottomBox {
+    position: absolute;
+    width: 35px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.imgBox {
+    width: 25px;
+}
+
+.topBox {
+    top: 12px;
+    left: 12px;
+}
+
+.bottomBox {
+    transform: rotate(180deg);
+    bottom: 12px;
+    right: 12px;
+}
+
+/* body {
+    background-image: url("planks-dark-old-wood-texture-1847619.jpg");
+} */
+
+.cardholder {
+    width: 1300px;
+    height: 390px;
+    margin: 100px auto;
+    border: solid rgb(104, 11, 11) 20px;
+    border-radius: 50px;
+
+}
+
+.playerName {
+    font-size: 100px;
+    color: rgb(248, 236, 0);
+    margin: 50px auto;
+    display: block;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
